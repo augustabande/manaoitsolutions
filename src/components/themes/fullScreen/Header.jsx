@@ -39,9 +39,10 @@ const FullScreenHeader = ({ textWhite }) => {
         }
       >
         <div className="container">
+          <span>MANA'O IT SOLUTIONS</span>
           {/* Logo */}
          
-          <Link
+          {/* <Link
             className="logo"
             title="Augusta Bande"
             smooth="easeInOutQuint"
@@ -57,7 +58,7 @@ const FullScreenHeader = ({ textWhite }) => {
               src={textWhite ? "images/logo-light.png" : "images/logo.png"}
               alt="Augusta Bande"
           />
-          </Link>
+          </Link> */}
           {/* Logo End */}
           <div
             className={"text-3 ms-auto me-2 " + (textWhite ? "text-white" : "")}

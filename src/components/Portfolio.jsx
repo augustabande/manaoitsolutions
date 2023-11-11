@@ -110,7 +110,7 @@ const Portfolio = () => {
       thumbImage: "images/projects/thumb-5.png",
       categories: [filters.FULLSTACK],
     },{
-      title: "LPIS QA",
+      title: "LPIS QA / DECOMMISSIONED",
       type: types.WEBSITE,
       document: {
         projectInfo:
@@ -138,7 +138,7 @@ const Portfolio = () => {
         projectInfo:
           "In the QUAP project, I focused on front-end development using Angular, integrating the European Commission's eUI framework to create a user-friendly interface for data exchange between EU member states and the Commission. My role involved crafting a responsive design, ensuring seamless data handling, and aligning the platform with EU accessibility and usability standards, significantly enhancing cross-border data interaction and compliance.",
         client: "European Commission",
-        technologies: "Angular, eUI, CI/CD",
+        technologies: "Angular/eUI, JavaScript, TypeScript, Docker, OpenShift",
         industry: "Science",
         date: "November 1, 2023",
         url: {
@@ -147,7 +147,7 @@ const Portfolio = () => {
         },
 
         sliderImages: [
-          "images/projects/project-1.jpg",
+          "images/projects/project-11.png",
         ],
       },
       thumbImage: "images/projects/thumb-11.png",
