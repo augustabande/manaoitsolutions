@@ -63,14 +63,6 @@ const Contact = () => {
               share as much info as possible so we can get the most out of our
               first catch-up.
             </p>
-            <h3 className="text-5 fw-600">Living in</h3>
-            <address className="text-4">
-              Lajares, Fuerteventura
-            </address>
-            <h3 className="text-5 fw-600">E-mail</h3>
-            <p className="text-4">augusta.bande@gmail.com</p>
-            <h3 className="text-5 fw-600">NIF</h3>
-            <p className="text-4">Y9036584J</p>
             <ul className="social-icons social-icons-lg justify-content-center justify-content-lg-start mt-5">
               <li className="social-icons-linkedin">
                 <Tooltip text="Linkedin" placement="top">
@@ -117,16 +109,26 @@ const Contact = () => {
                 </Tooltip>
               </li>*/}
             </ul>
+            
           </div>
           <div
             className="col-lg-6 ms-auto mt-5 mt-lg-0 wow fadeInUp"
             data-wow-delay="0.3s"
           >
             <h2 className="text-10 fw-600 text-center text-lg-start mb-5">
-              Estimate your Project?
+              Contact
             </h2>
+            <h3 className="text-5 fw-600">Living in</h3>
+            <address className="text-4">
+              Lajares, Fuerteventura
+            </address>
+            <h3 className="text-5 fw-600">E-mail</h3>
+            <p className="text-4">augusta.bande@gmail.com</p>
+            <h3 className="text-5 fw-600">NIF</h3>
+            <p className="text-4">Y9036584J</p>
+            
             {/* Contact Form */}
-            <form
+            {/* <form
               id="contact-form"
               className="form-border"
               method="post"
@@ -198,7 +200,7 @@ const Contact = () => {
                 </div>
                 <ToastContainer />
               </div>
-            </form>
+            </form> */}
             {/* Contact Form end */}
           </div>
         </div>
