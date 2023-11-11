@@ -51,7 +51,7 @@ const FullScreenDefaultIntro = () => {
             <div className="bg-light rounded-pill d-inline-block p-3 shadow-lg wow zoomIn">
               <img
                 className="img-fluid rounded-pill d-block"
-                src="images/web-developer.jpg"
+                src="images/web-developer.webp"
                 title="I'm Augusta"
                 alt="I'm Augusta"
               />
