@@ -65,8 +65,7 @@ const Contact = () => {
             </p>
             <h3 className="text-5 fw-600">Living in</h3>
             <address className="text-4">
-              Calle Juanita, 15
-              35650 Lajares Las Palmas SPAIN
+              Lajares, Fuerteventura
             </address>
             <h3 className="text-5 fw-600">E-mail</h3>
             <p className="text-4">augusta.bande@gmail.com</p>

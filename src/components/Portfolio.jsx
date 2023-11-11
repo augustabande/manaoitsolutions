@@ -131,6 +131,28 @@ const Portfolio = () => {
       thumbImage: "images/projects/thumb-4.png",
       categories: [filters.FRONTEND],
     },
+    {
+      title: "QUAP - QUality Assessment Platform",
+      type: types.WEBSITE,
+      document: {
+        projectInfo:
+          "In the QUAP project, I focused on front-end development using Angular, integrating the European Commission's eUI framework to create a user-friendly interface for data exchange between EU member states and the Commission. My role involved crafting a responsive design, ensuring seamless data handling, and aligning the platform with EU accessibility and usability standards, significantly enhancing cross-border data interaction and compliance.",
+        client: "European Commission",
+        technologies: "Angular, eUI, CI/CD",
+        industry: "Science",
+        date: "November 1, 2023",
+        url: {
+          name: "lpis.jrc.ec.europa.eu",
+          link: "https://lpis.jrc.ec.europa.eu/lt/index.html",
+        },
+
+        sliderImages: [
+          "images/projects/project-1.jpg",
+        ],
+      },
+      thumbImage: "images/projects/thumb-11.png",
+      categories: [filters.FRONTEND],
+    },
     /*{
       title: "YouTube Video",
       type: types.VIDEO,
@@ -186,6 +208,18 @@ const Portfolio = () => {
   ];
 
   // initialize an Isotope object with configs
+  /*useEffect(() => {
+    isotope.current = new Isotope(".portfolio-filter", {
+      itemSelector: ".filter-item",
+      layoutMode: "masonry",
+      originLeft: !isRtl,
+    });
+
+    // cleanup
+    return () => {
+      isotope.current.destroy();
+    };
+  }, []);*/
   useEffect(() => {
     isotope.current = new Isotope(".portfolio-filter", {
       itemSelector: ".filter-item",
@@ -197,7 +231,7 @@ const Portfolio = () => {
     return () => {
       isotope.current.destroy();
     };
-  }, []);
+  }, [isRtl]); // Include isRtl in the dependency array
 
   // handling filter key change
   useEffect(() => {
