@@ -1,15 +1,15 @@
-import React, { useRef, useState } from "react";
-import emailjs from "@emailjs/browser";
-import { ToastContainer, toast } from "react-toastify";
+//import React, { useRef, useState } from "react";
+//import emailjs from "@emailjs/browser";
+//import { ToastContainer, toast } from "react-toastify";
 
 import "react-toastify/dist/ReactToastify.css";
 import { Tooltip } from "./Tooltip";
 
 const Contact = () => {
-  const form = useRef();
-  const [sendingMail, setSendingMail] = useState(false);
+  //const form = useRef();
+  //const [sendingMail, setSendingMail] = useState(false);
 
-  const sendEmail = (e) => {
+  /*const sendEmail = (e) => {
     e.preventDefault();
     setSendingMail(true);
     emailjs
@@ -50,7 +50,7 @@ const Contact = () => {
           setSendingMail(false);
         }
       );
-  };
+  };*/
 
   return (
     <section id="contact" className="section bg-primary">
