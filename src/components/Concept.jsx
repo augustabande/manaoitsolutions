@@ -20,7 +20,7 @@ const Concept = () => {
           >
             {/* Heading */}
             <p className="text-center text-lg-start mb-2">
-              <span className="bg-primary text-dark px-2">FAQ</span>
+              <span className="bg-primary text-light px-2">FAQ</span>
             </p>
             <h2 className="text-10 fw-600 text-center text-lg-start mb-5">
               Have any questions?

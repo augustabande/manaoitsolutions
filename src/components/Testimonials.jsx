@@ -76,7 +76,7 @@ const Testimonials = () => {
       <div className="container">
         {/* Heading */}
         <p className=" text-center mb-2 wow fadeIn">
-          <span className="bg-primary text-dark px-2">Client Speak</span>
+          <span className="bg-primary text-light px-2">Client Speak</span>
         </p>
         <h2 className="text-10 fw-600 text-white text-center mb-5 wow fadeIn">
           What Some of my Clients Say

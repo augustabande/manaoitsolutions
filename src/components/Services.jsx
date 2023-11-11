@@ -40,7 +40,7 @@ const Services = () => {
       <div className="container">
         {/* Heading */}
         <p className=" text-center mb-2 wow fadeInUp">
-          <span className="bg-primary text-dark px-2">What I Do?</span>
+          <span className="bg-primary text-light px-2">Concept</span>
         </p>
         <h2 className="text-10 fw-600 text-center mb-5 wow fadeInUp">
           How I can help your next project
