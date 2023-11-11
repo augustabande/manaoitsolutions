@@ -39,7 +39,7 @@ const FullScreenHeader = ({ textWhite }) => {
         }
       >
         <div className="container">
-          <span>MANA'O IT SOLUTIONS</span>
+          <span class="mainTitle">MANA'O</span>
           {/* Logo */}
          
           {/* <Link
