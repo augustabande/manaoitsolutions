@@ -1,7 +1,7 @@
 import "./App.scss";
 import WOW from "wowjs";
 import AboutUs from "./components/About";
-//import Concept from "./components/Concept";
+import Concept from "./components/Concept";
 import Services from "./components/Services";
 import Resume from "./components/Resume";
 import Portfolio from "./components/Portfolio";
@@ -123,7 +123,7 @@ function App() {
               getStandardMenuIntro()}
 
             <AboutUs></AboutUs>
-            {/*<Concept></Concept>*/}
+            <Concept></Concept>
             <Services></Services>
             <Resume></Resume>
             <Portfolio></Portfolio>

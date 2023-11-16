@@ -40,14 +40,12 @@ const Services = () => {
       <div className="container">
         {/* Heading */}
         <p className=" text-center mb-2 wow fadeInUp">
-          <span className="bg-primary text-light px-2">Concept</span>
+          <span className="bg-primary text-light px-2">What I Do?</span>
         </p>
         <h2 className="text-10 fw-600 text-center mb-5 wow fadeInUp">
           How I can help your next project
         </h2>
-        <p className=" text-center mb-2 wow fadeInUp">At the heart of digital innovation, MANA'O IT SOLUTION embodies the spirit of the Hawaiian word "mana'o", signifying deep knowledge and insight. As a dedicated web developer, I am committed to transforming this wisdom into tangible digital solutions. I blend creativity, functionality, and cutting-edge technology to exceed my clients' needs.</p>
-        <p className=" text-center mb-2 wow fadeInUp">MANA'O IT SOLUTION believes every web project is a unique journey. My goal is to infuse "mana'o" - profound understanding - into every website, application, or platform I develop. I ensure each project not only achieves its objectives but surpasses them, offering an exceptional user experience, intuitive design, and top-tier performance.</p>
-        <p className=" text-center mb-2 wow fadeInUp">Whether you're launching a new website, revamping an existing digital presence, or exploring innovative solutions, MANA'O IT SOLUTION is here to guide you with expertise and creativity. Join me on this journey of digital transformation, where your vision meets my expertise to create something truly extraordinary.</p>
+        
         {/* Heading end*/}
         <div className="row gy-5 mt-5">
           {services.length > 0 &&
