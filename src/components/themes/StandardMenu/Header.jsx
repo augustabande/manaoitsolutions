@@ -15,7 +15,7 @@ const StandardMenuHeader = () => {
             {/* Logo */}
             <Link
               className="logo"
-              title="Callum"
+              title="Augusta Bande"
               smooth="easeInOutQuint"
               duration={scrollDuration}
               style={{ cursor: "pointer" }}

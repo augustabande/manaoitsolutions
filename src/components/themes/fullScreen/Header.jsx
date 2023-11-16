@@ -129,6 +129,23 @@ const FullScreenHeader = ({ textWhite }) => {
                     style={{ cursor: "pointer" }}
                     activeClass="active"
                     spy
+                    to="concept"
+                    onClick={(e) => {
+                      e.preventDefault();
+                      setIsNavModalClose(true);
+                    }}
+                  >
+                    Concept
+                  </Link>
+                </li>
+                <li className="nav-item">
+                  <Link
+                    className="nav-link "
+                    smooth="easeInOutQuint"
+                    duration={scrollDuration}
+                    style={{ cursor: "pointer" }}
+                    activeClass="active"
+                    spy
                     to="services"
                     onClick={(e) => {
                       e.preventDefault();
